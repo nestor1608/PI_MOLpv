@@ -84,6 +84,7 @@ En este proyecto, mi rol será el de Data Scientist, y también asumiré el pape
 
  ## Modelo de recomendacion
 
+
 Para la visualizacion del producto MLOps se desarrollo un modelo que prediga si una pelicula sera de su interes. El modelo arrojara como resultado si esa pelicula es recomendable para el cliente.
 
 _¿Cuantas veces hacemos zapping por las plataformas y buscamos una pelicula que nos llame la atencion o que nos produzca algo al verla y que  **NO SEA UNA PERDIDA DE TIEMPO HABERLA VISTO**?_
@@ -104,6 +105,16 @@ _Si lo quires probar tu 😉_
 :link: https://huggingface.co/spaces/nestor-chino/nestor-pi-ml
 
 Si tiene alguna falla, o deseas darme recomendacion, o quieres darme un feedback y decirme como lo podria mejorar, sera bien venida
+
+## Comentarios
+
+* _Se realizo una breve investigacion sobre el negocio para poder contrastar datos y agrupar de mejor manera estos para que arrojen datos relevantes lo que haria mas preciso el modelo de **ML**_  
+
+* _En el proceso de transformacion se creo un nuevo dataset con informacion mas relevante y mas precisa de las peliculas_ 
+
+* _Se crearon dos Apis para el modelo, las cuales proporcionan datos para estrcturacion del modelo, creacion y funcionamiento optimo del **[ DEMO ](https://huggingface.co/spaces/nestor-chino/nestor-pi-ml)**, y filtrado de dato_ 
+
+**EL MODELO DE MACHINE LEARNIG SE ENCUANTRA LIGADO A LAS DOS APIS  QUE LE PROPORCIONAN DATOS**
 
 ### Contacto
 * GitHub: :link: https://github.com/nestor1608
