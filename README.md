@@ -1,16 +1,5 @@
-<!DOCTYPE html>
+
 <html>
-<head>
-	<title>Proyecto Individual MLOdv</title>
-	<style>
-		body {
-			text-align: center;
-		}
-		h1, h2 {
-			text-align: center;
-		}
-	</style>
-</head>
 <body>
 <img src='https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png'>
 	<h1 style='align:center'> **PROYECTO INDIVIDUAL Nº1** </h1>
@@ -20,6 +9,13 @@
 <p>Nombre: Nestor Javier Gentil</p>
 <p>Correo: nestor_gentil@hotmail.com</p>
 <p>Cohorte: 08</p>
+
+## Objetivo
+
+* Realizar un buen manejo de las herramientas que usa un Data Scientist
+* Realizar un Analisis Exploratorio de datos recibidos (EDA)
+* Analisis Limpieza y Transformacionde Datos (ETL)
+* Creacion de modelo de Machine Learning
 
 ## Planteo del Problema
 
@@ -84,6 +80,8 @@ En este proyecto, mi rol será el de Data Scientist, y también asumiré el pape
 
 :small_orange_diamond: **[Streamlit](https://streamlit.io/)**: Streamlit nos sirve para darle una interfaz al modelo de recomendación y se pueda ver su funcinalidad.
 
+* :warning: Se utilizo el servicio de bloques de:small_orange_diamond: **[Oracle Clud](https://cloud.oracle.com/)**  ya que el archivo de visualizaciones por usuario era muy amplio
+
  ## Modelo de recomendacion
 
 Para la visualizacion del producto MLOps se desarrollo un modelo que prediga si una pelicula sera de su interes. El modelo arrojara como resultado si esa pelicula es recomendable para el cliente.
@@ -94,11 +92,18 @@ _Cuantas veces buscamos recomendaciones de peliculas y pretendemos que sean buen
 
 ## El modelo podria ser implementado tanto como para predecir como para sugerir
 
+## :white_check_mark: Demo para ser mostrado a la empresa
+ 
 <img style='width:500px' src=_src/prueba_ml.png>
 <img style='width:500px' src=_src/prueba_final_ml2.png>
 <img style='width:500px ' src=_src/prueba_final_ml3.png>
 <img style='width:500px' height:100px' src=_src/prueba_final_ml1.png>
 
+_Si lo quires probar tu 😉_
+
+:link: https://huggingface.co/spaces/nestor-chino/nestor-pi-ml
+
+Si tiene alguna falla, o deseas darme recomendacion, o quieres darme un feedback y decirme como lo podria mejorar, sera bien venida
 
 ### Contacto
 * GitHub: :link: https://github.com/nestor1608
