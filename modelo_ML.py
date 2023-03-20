@@ -6,12 +6,12 @@ from trasform_data_ml import export_peli
 
 
 pelis= pd.read_csv('https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr4oj5h2hdd0/b/documentos/o/pelis.csv')
-#rating = export_rating()
-rating = data_rating() #pd.read_csv('rating.csv')#'https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr4oj5h2hdd0/b/documentos/o/rating.csv',index_col='Unnamed: 0')
 
+rating = pd.read_csv('../rating.csv',index_col='Unnamed: 0')#'https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr4oj5h2hdd0/b/documentos/o/rating.csv',index_col='Unnamed: 0')
 change_code= {'as943':'as942', 'as5894':'as5087', 'as9037': 'as4402', 'as9059':'as7296', 'as9270' :'as7054', 'ns6706':'ns304','ns7346':'ns160', 'ns8023':'ns1271'}
-pelis.duration_int.fillna(0,inplace=True)
 rating.movieId = rating.movieId.replace(change_code)
+pelis.duration_int.fillna(0,inplace=True)
+
 movie= pd.read_csv('https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr4oj5h2hdd0/b/documentos/o/movie_clean.csv') 
 
 def title_movie():
